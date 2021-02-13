@@ -112,3 +112,11 @@ Applying learning_logs.0002_entry... OK
 Each time you modify your models, you’ll need to restart the shell to see the effects of
 those changes. To exit a shell session, press ctrl-D; on Windows, press ctrl-Z and
 then press enter.
+
+## Making Pages: The Learning Log Home Page
+
+### Mapping a URL
+
+### Writing a View
+
+### Writing a Template
