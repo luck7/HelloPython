@@ -125,24 +125,10 @@ then press enter.
 
 ### Template Inheritance
 
-#### The Parent Template
-
-#### The Child Template
-
 ### The Topics Page
-
-#### The Topics URL Pattern
-
-#### The Topics View
-
-#### The Topics Template
 
 ### Individual Topic Pages
 
-#### The Topic URL Pattern
+## Allowing Users to Enter Data
 
-#### The Topic View
-
-#### The Topic Template
-
-#### Links from the Topics Page
+### Adding New Topics
