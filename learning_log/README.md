@@ -132,3 +132,5 @@ then press enter.
 ## Allowing Users to Enter Data
 
 ### Adding New Topics
+
+### Adding New Entries
