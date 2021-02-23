@@ -134,3 +134,15 @@ then press enter.
 ### Adding New Topics
 
 ### Adding New Entries
+
+### Editing Entries
+
+## Setting Up User Accounts
+
+### The users App
+
+### The Login Page
+
+### Logging Out
+
+### The Registration Page
