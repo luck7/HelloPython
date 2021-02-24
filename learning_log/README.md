@@ -172,3 +172,5 @@ then press enter.
 ### Using Bootstrap to Style Learning Log
 
 ### Modifying base.html
+
+### Styling the Home Page Using a Jumbotron
