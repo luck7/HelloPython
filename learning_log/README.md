@@ -152,3 +152,5 @@ then press enter.
 ### Restricting Access with @login_required
 
 ### Connecting Data to Certain Users
+
+### Restricting Topics Access to Appropriate Users
