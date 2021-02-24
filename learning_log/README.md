@@ -168,3 +168,7 @@ then press enter.
 ```bash
 (ll_env)learning_log$ pip install django-bootstrap4
 ```
+
+### Using Bootstrap to Style Learning Log
+
+### Modifying base.html
