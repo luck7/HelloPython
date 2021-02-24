@@ -160,3 +160,5 @@ then press enter.
 ### Protecting the edit_entry Page
 
 ### Associating New Topics with the Current User
+
+## Styling Learning Log
