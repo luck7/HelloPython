@@ -156,3 +156,5 @@ then press enter.
 ### Restricting Topics Access to Appropriate Users
 
 ### Protecting a User’s Topics
+
+### Protecting the edit_entry Page
