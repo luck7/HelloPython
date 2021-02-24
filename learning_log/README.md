@@ -162,3 +162,9 @@ then press enter.
 ### Associating New Topics with the Current User
 
 ## Styling Learning Log
+
+### The django-bootstrap4 App
+
+```bash
+(ll_env)learning_log$ pip install django-bootstrap4
+```
