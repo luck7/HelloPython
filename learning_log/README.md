@@ -178,3 +178,5 @@ then press enter.
 ### Styling the Login Page
 
 ### Styling the Topics Page
+
+### Styling the Entries on the Topic Page
