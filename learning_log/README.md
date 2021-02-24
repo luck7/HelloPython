@@ -176,3 +176,5 @@ then press enter.
 ### Styling the Home Page Using a Jumbotron
 
 ### Styling the Login Page
+
+### Styling the Topics Page
