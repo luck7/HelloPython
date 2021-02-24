@@ -174,3 +174,5 @@ then press enter.
 ### Modifying base.html
 
 ### Styling the Home Page Using a Jumbotron
+
+### Styling the Login Page
