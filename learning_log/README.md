@@ -146,3 +146,7 @@ then press enter.
 ### Logging Out
 
 ### The Registration Page
+
+## Allowing Users to Own Their Data
+
+### Restricting Access with @login_required
