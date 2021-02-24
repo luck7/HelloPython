@@ -158,3 +158,5 @@ then press enter.
 ### Protecting a User’s Topics
 
 ### Protecting the edit_entry Page
+
+### Associating New Topics with the Current User
