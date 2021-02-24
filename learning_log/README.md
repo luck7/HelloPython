@@ -154,3 +154,5 @@ then press enter.
 ### Connecting Data to Certain Users
 
 ### Restricting Topics Access to Appropriate Users
+
+### Protecting a User’s Topics
