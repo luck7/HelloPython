@@ -1,16 +1,33 @@
-# This is a sample Python script.
+def add_new_word():
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    list_of_words = []
+
+    # read from file and parse into List
+    in_file = 'in.txt'
+    with open(in_file) as file_word:
+        for line in file_word:
+            for w in line.split():
+                list_of_words.append(w)
+
+    list_of_words.sort()
+    print(list_of_words)
+
+    # ask for new word
+    while True:
+        new_word = input("请输入新单词【N-退出】：")
+        if new_word == 'N':
+            break
+        if new_word in list_of_words:
+            print(new_word + " 已存在。")
+        else:
+            print("新单词: ", new_word)
+            list_of_words.append(new_word)
+
+    # write to file
+    out_file = 'out.txt'
+    with open(out_file, 'w') as file_word:
+        file_word.write(' '.join(list_of_words))
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    add_new_word()
