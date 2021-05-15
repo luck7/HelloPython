@@ -1,16 +1,18 @@
 def add_new_word():
 
+    # in_file = 'in.txt'
+    # out_file = 'out.txt'
+
+    in_file = 'collection.txt'
+    out_file = 'collection.txt'
+
     list_of_words = []
 
     # read from file and parse into List
-    in_file = 'in.txt'
     with open(in_file) as file_word:
         for line in file_word:
             for w in line.split():
                 list_of_words.append(w)
-
-    list_of_words.sort()
-    print(list_of_words)
 
     # ask for new word
     while True:
@@ -23,8 +25,10 @@ def add_new_word():
             print("新单词: ", new_word)
             list_of_words.append(new_word)
 
+    list_of_words.sort()
+    print(list_of_words)
+
     # write to file
-    out_file = 'out.txt'
     with open(out_file, 'w') as file_word:
         file_word.write(' '.join(list_of_words))
 
