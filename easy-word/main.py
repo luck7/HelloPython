@@ -14,6 +14,7 @@ def add_new_word():
         for line in file_word:
             for w in line.split():
                 if w not in list_of_words:
+                    print("new word: ", w)
                     list_of_words.append(w)
 
     # ask for new word
