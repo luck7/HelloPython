@@ -1,18 +1,20 @@
 def add_new_word():
 
-    # in_file = 'in.txt'
-    # out_file = 'out.txt'
-
-    in_file = 'collection.txt'
+    in_file = 'in.txt'
     out_file = 'collection.txt'
 
     list_of_words = []
 
     # read from file and parse into List
-    with open(in_file) as file_word:
+    with open(out_file) as file_word:
         for line in file_word:
             for w in line.split():
                 list_of_words.append(w)
+    with open(in_file) as file_word:
+        for line in file_word:
+            for w in line.split():
+                if w not in list_of_words:
+                    list_of_words.append(w)
 
     # ask for new word
     while True:
