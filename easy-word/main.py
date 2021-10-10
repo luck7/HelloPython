@@ -9,12 +9,17 @@ def add_new_word():
     with open(out_file) as file_word:
         for line in file_word:
             for w in line.split():
-                list_of_words.append(w)
+                if w in list_of_words:
+                    print("已存在: \t", w)
+                else:
+                    list_of_words.append(w)
     with open(in_file) as file_word:
         for line in file_word:
             for w in line.split():
-                if w not in list_of_words:
-                    print("new word: ", w)
+                if w in list_of_words:
+                    print("已存在: \t", w)
+                else:
+                    print("新单词: \t", w)
                     list_of_words.append(w)
 
     # ask for new word
@@ -23,12 +28,19 @@ def add_new_word():
         if new_word == 'N':
             break
         if new_word in list_of_words:
-            print(new_word + " 已存在。")
+            print("已存在: \t", new_word)
         else:
-            print("新单词: ", new_word)
+            print("新单词: \t", new_word)
             list_of_words.append(new_word)
 
     list_of_words.sort()
+
+    for n, i in enumerate(list_of_words):
+        if i in ['a-b-c-d', 'e-f-g', 'h-i-j-k', 'l-m-n', 'o-p-q', 'r-s-t', 'u-v-w-x-y-z']:
+            list_of_words[n] = '\r\n### ' + i + '\r\n'
+
+    list_of_words.remove('###')
+
     print(list_of_words)
 
     # write to file
